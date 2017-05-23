@@ -29,7 +29,11 @@
 
     
     self.array = @[@{@"name":@"Serial-Sync",@"vc":@"SerialSyncVC"},
-                   @{@"name":@"Serial-Async",@"vc":@"SerialAsyncVC"}];
+                   @{@"name":@"Serial-Async",@"vc":@"SerialAsyncVC"},
+                   @{@"name":@"Concurrent-Sync",@"vc":@"ConcurrentSyncVC"},
+                   @{@"name":@"Concurrent-Async",@"vc":@"ConcurrentAsyncVC"},
+                   @{@"name":@"Main-Sync",@"vc":@"MainSyncVC"},
+                   @{@"name":@"Main-Async",@"vc":@"MainAsyncVC"},];
     
     
     self.tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) style:UITableViewStyleGrouped];

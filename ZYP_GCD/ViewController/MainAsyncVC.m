@@ -1,18 +1,18 @@
 //
-//  SerialAsyncVC.m
+//  MainAsyncVC.m
 //  ZYP_GCD
 //
 //  Created by zhaoyunpeng on 17/5/23.
 //  Copyright © 2017年 zhaoyunpeng. All rights reserved.
 //
 
-#import "SerialAsyncVC.h"
+#import "MainAsyncVC.h"
 
-@interface SerialAsyncVC ()
+@interface MainAsyncVC ()
 
 @end
 
-@implementation SerialAsyncVC
+@implementation MainAsyncVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -21,8 +21,8 @@
 
 - (void)onClickButton:(UIButton *)button {
     
-    // serial async 串行异步 - 开启1条新线程 串行 顺序
-    dispatch_queue_t queue = dispatch_queue_create("queue", DISPATCH_QUEUE_SERIAL);
+    // main async 主队列异步 - 当前线程 串行
+    dispatch_queue_t queue = dispatch_get_main_queue();
     
     dispatch_async(queue, ^{
         
@@ -44,5 +44,4 @@
     });
     
 }
-
 @end
