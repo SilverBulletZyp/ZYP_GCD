@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D130DDF91ED56442009521BA /* MainUpdateUIVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D130DDF81ED56442009521BA /* MainUpdateUIVC.m */; };
+		D130DDFC1ED56743009521BA /* BarrierAsyncVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D130DDFB1ED56743009521BA /* BarrierAsyncVC.m */; };
+		D130DDFF1ED57E55009521BA /* AfterTimeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D130DDFE1ED57E55009521BA /* AfterTimeVC.m */; };
+		D130DE021ED5813C009521BA /* OnceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D130DE011ED5813C009521BA /* OnceVC.m */; };
+		D130DE051ED58459009521BA /* ApplyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D130DE041ED58459009521BA /* ApplyVC.m */; };
+		D130DE081ED593F6009521BA /* GroupVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D130DE071ED593F6009521BA /* GroupVC.m */; };
 		D161A7D21ED40CF400C9BC39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D161A7D11ED40CF400C9BC39 /* main.m */; };
 		D161A7D51ED40CF400C9BC39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D161A7D41ED40CF400C9BC39 /* AppDelegate.m */; };
 		D161A7D81ED40CF400C9BC39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D161A7D71ED40CF400C9BC39 /* ViewController.m */; };
@@ -23,6 +29,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D130DDF71ED56442009521BA /* MainUpdateUIVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainUpdateUIVC.h; sourceTree = "<group>"; };
+		D130DDF81ED56442009521BA /* MainUpdateUIVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainUpdateUIVC.m; sourceTree = "<group>"; };
+		D130DDFA1ED56743009521BA /* BarrierAsyncVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrierAsyncVC.h; sourceTree = "<group>"; };
+		D130DDFB1ED56743009521BA /* BarrierAsyncVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarrierAsyncVC.m; sourceTree = "<group>"; };
+		D130DDFD1ED57E55009521BA /* AfterTimeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AfterTimeVC.h; sourceTree = "<group>"; };
+		D130DDFE1ED57E55009521BA /* AfterTimeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AfterTimeVC.m; sourceTree = "<group>"; };
+		D130DE001ED5813C009521BA /* OnceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnceVC.h; sourceTree = "<group>"; };
+		D130DE011ED5813C009521BA /* OnceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnceVC.m; sourceTree = "<group>"; };
+		D130DE031ED58459009521BA /* ApplyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplyVC.h; sourceTree = "<group>"; };
+		D130DE041ED58459009521BA /* ApplyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplyVC.m; sourceTree = "<group>"; };
+		D130DE061ED593F6009521BA /* GroupVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupVC.h; sourceTree = "<group>"; };
+		D130DE071ED593F6009521BA /* GroupVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupVC.m; sourceTree = "<group>"; };
 		D161A7CD1ED40CF400C9BC39 /* ZYP_GCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYP_GCD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D161A7D11ED40CF400C9BC39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D161A7D31ED40CF400C9BC39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -118,6 +136,18 @@
 				D161A7F81ED42AAA00C9BC39 /* MainSyncVC.m */,
 				D161A7FA1ED42AB700C9BC39 /* MainAsyncVC.h */,
 				D161A7FB1ED42AB700C9BC39 /* MainAsyncVC.m */,
+				D130DDF71ED56442009521BA /* MainUpdateUIVC.h */,
+				D130DDF81ED56442009521BA /* MainUpdateUIVC.m */,
+				D130DDFA1ED56743009521BA /* BarrierAsyncVC.h */,
+				D130DDFB1ED56743009521BA /* BarrierAsyncVC.m */,
+				D130DDFD1ED57E55009521BA /* AfterTimeVC.h */,
+				D130DDFE1ED57E55009521BA /* AfterTimeVC.m */,
+				D130DE001ED5813C009521BA /* OnceVC.h */,
+				D130DE011ED5813C009521BA /* OnceVC.m */,
+				D130DE031ED58459009521BA /* ApplyVC.h */,
+				D130DE041ED58459009521BA /* ApplyVC.m */,
+				D130DE061ED593F6009521BA /* GroupVC.h */,
+				D130DE071ED593F6009521BA /* GroupVC.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -198,9 +228,15 @@
 				D161A7FC1ED42AB700C9BC39 /* MainAsyncVC.m in Sources */,
 				D161A7F01ED41A1D00C9BC39 /* SerialAsyncVC.m in Sources */,
 				D161A7E91ED4186D00C9BC39 /* BaseViewController.m in Sources */,
+				D130DDFC1ED56743009521BA /* BarrierAsyncVC.m in Sources */,
+				D130DE051ED58459009521BA /* ApplyVC.m in Sources */,
+				D130DDF91ED56442009521BA /* MainUpdateUIVC.m in Sources */,
 				D161A7D51ED40CF400C9BC39 /* AppDelegate.m in Sources */,
 				D161A7F31ED4261600C9BC39 /* ConcurrentSyncVC.m in Sources */,
+				D130DE081ED593F6009521BA /* GroupVC.m in Sources */,
 				D161A7F91ED42AAA00C9BC39 /* MainSyncVC.m in Sources */,
+				D130DDFF1ED57E55009521BA /* AfterTimeVC.m in Sources */,
+				D130DE021ED5813C009521BA /* OnceVC.m in Sources */,
 				D161A7ED1ED41A0F00C9BC39 /* SerialSyncVC.m in Sources */,
 				D161A7D21ED40CF400C9BC39 /* main.m in Sources */,
 			);

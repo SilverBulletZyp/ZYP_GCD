@@ -6,6 +6,8 @@
 //  Copyright © 2017年 zhaoyunpeng. All rights reserved.
 //
 
+#define ZYPLog(FORMAT, ...) printf("%s\n", [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String])
+
 #import "BaseViewController.h"
 
 @interface BaseViewController ()
@@ -29,6 +31,7 @@
         [_button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         [_button setBackgroundColor:[UIColor redColor]];
         [_button addTarget:self action:@selector(onClickButton:) forControlEvents:UIControlEventTouchUpInside];
+        [_button setShowsTouchWhenHighlighted:YES];
     }
     return _button;
 }
@@ -38,6 +41,10 @@
 }
 
 - (void)currentThreadLog:(int)i {
+    ZYPLog(@"num%d %@",i,[NSThread currentThread]);
+}
+
+- (void)currentThreadLogWithTime:(int)i {
     NSLog(@"num%d %@",i,[NSThread currentThread]);
 }
 

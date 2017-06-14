@@ -21,23 +21,23 @@
 
 - (void)onClickButton:(UIButton *)button {
     
-    // concurrent async 并发异步 - 开启多线程 同时执行 (主队列)
+    // concurrent async 并发异步 - 开启多线程 同时执行
     dispatch_queue_t queue = dispatch_queue_create("queue", DISPATCH_QUEUE_CONCURRENT);
     
-    dispatch_sync(queue, ^{
+    dispatch_async(queue, ^{
         
         for (int i = 0; i < 3; i++) {
             [self currentThreadLog:i];
         }
     });
     
-    dispatch_sync(queue, ^{
+    dispatch_async(queue, ^{
         for (int i = 3; i < 6; i++) {
             [self currentThreadLog:i];
         }
     });
     
-    dispatch_sync(queue, ^{
+    dispatch_async(queue, ^{
         for (int i = 6; i < 9; i++) {
             [self currentThreadLog:i];
         }

@@ -9,7 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface BaseViewController : UIViewController
+
 @property (nonatomic, strong) UIButton *button;
+
 - (void)onClickButton:(UIButton *)button;
 - (void)currentThreadLog:(int)i;
+- (void)currentThreadLogWithTime:(int)i;
+
 @end
